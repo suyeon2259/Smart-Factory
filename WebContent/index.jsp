@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.io.*" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,28 +11,13 @@
 <meta name="viewport" content="width=device-width", initial-scale="1"> <!-- 반응형 웹 메타태그 -->
 </head>
 <body>
-   <!-- 헤더 (모듈화 필요) -->
+   <!-- 헤더  -->
     <header class="hd">
-       <a href="index.html">
-        <div class="hd_logo">
-            <img src="icon/hd_logo_ic.svg">
-        </div>
-        </a>
-        
-        <div class="hd_menu">
-            <img src="icon/menu.svg">
-        </div>
-        
-        <a href="user.html">
-        <div class="hd_user">
-            <img src="icon/user.svg">
-        </div>
-        </a>
+		<jsp:include page="nav.jsp" flush="false"/>
     </header>
     
     <!-- 섹션 -->
     <section class="sc">
-        
         <div class="sc_1">
             <div class="sc_logo">
                 <img src="icon/sc_logo.svg">

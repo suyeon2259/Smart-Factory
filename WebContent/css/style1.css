@@ -254,10 +254,6 @@ body {
 /*    background-color: blue;*/
 }
 
-.sc_3_2_text > a {
-/*    background-color: purple;*/
-}
-
 .sc_4 {
     display: flex;
     flex-direction: column;
@@ -424,8 +420,6 @@ body {
 /* animation */
 .up-on-scroll {
     transition: all 0.8s;
-}
-
 }
 
 

@@ -1,34 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Default Page</title>
 <link rel="stylesheet" href="css/default.css">
-<!--<script type="text/javascript" src="/js/script1.js"></script>-->
+<script type="text/javascript" src="/js/script1.js"></script>
 <meta name="viewport" content="width=device-width", initial-scale="1"> <!-- 반응형 웹 메타태그 -->
 </head>
 <body>
-   <!-- 헤더 (모듈화 필요) -->
+   <!-- 헤더 -->
     <header class="hd">
-        <div class="hd_logo">
-            <img src="icon/hd_logo_ic.svg">
-        </div>
-        
-        <div class="hd_menu">
-            <img src="icon/menu.svg">
-        </div>
-        
-        <div class="hd_user">
-            <img src="icon/user.svg">
-        </div>
+		<jsp:include page="nav.jsp" flush="false"/>
     </header>
     
     <!-- 섹션 -->
     <section class="sc">
-        
         <div class="sc_1">
             공간 1
-            <br>
+        <br>
             공간 높이는 뷰의 높이(창 높이 혹은 디바이스 크기, vh)에 따라 유동적으로 바뀜
         </div>
         
