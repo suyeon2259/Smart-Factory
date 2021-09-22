@@ -1,3 +1,4 @@
+// 스크롤 애니메이션 
 function isElementUnderBottom(elem, triggerDiff) {
   const { top } = elem.getBoundingClientRect();
   const { innerHeight } = window;
@@ -18,3 +19,14 @@ function handleScroll() {
 }
 
 window.addEventListener('scroll', handleScroll);
+
+// 메뉴
+function menuOpen() {
+	var m_open = document.getElementById('mnCnt');
+	m_open.style.display = "block";
+}
+
+function menuClose() {
+    var m_close = document.getElementById('mnCnt');
+    m_close.style.display = "none";
+}

@@ -11,10 +11,17 @@
 <meta name="viewport" content="width=device-width", initial-scale="1"> <!-- 반응형 웹 메타태그 -->
 </head>
 <body>
-   <!-- 헤더  -->
+
+   	<!-- 헤더  -->
     <header class="hd">
 		<jsp:include page="nav.jsp" flush="false"/>
     </header>
+    
+   	<!-- 메뉴 -->
+    <div>
+		<jsp:include page="menu.jsp" flush="false"/>
+	</div>
+	  
     
     <!-- 섹션 -->
     <section class="sc">

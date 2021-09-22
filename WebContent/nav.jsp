@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>nav</title>
 <link rel="stylesheet" href="css/default.css">
+<!-- <script type="text/javascript" src="js/main.js"></script> -->
 </head>
 <body>
 		<a href="index.jsp">
@@ -14,11 +15,13 @@
         </div>
         </a>
         
+        <a href="#" onclick="menuOpen(); return false;">
         <div class="hd_menu">
             <img src="icon/menu.svg">
         </div>
+        </a>
         
-        <a href="user.html">
+        <a href="user.jsp">
         <div class="hd_user">
             <img src="icon/user.svg">
         </div>
