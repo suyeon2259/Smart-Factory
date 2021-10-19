@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>PATH</title>
-<link rel="stylesheet" href="css/style1.css">
+<link rel="stylesheet" href="css/index.css">
 <script type="text/javascript" src="js/main.js"></script>
 <meta name="viewport" content="width=device-width", initial-scale="1"> <!-- 반응형 웹 메타태그 -->
 </head>
@@ -39,6 +39,7 @@
         <div class="sc_2">
             <a class="font_2">What we do</a>
             <br><br><br><br>
+            
         <article class="up-on-scroll">
             <a class="font_3">설계도면과 제품 사이의 유사성을 검사합니다.
             </a><br>
@@ -53,7 +54,7 @@
             <a class="font_2">Process</a>
             <div class="sc_3_1 up-on-scroll">
                 <div class="sc_3_1_img">
-                      <img src="img/bg_3.gif">
+                      <img src="img/product_1.jpg">
                 </div>
                 <div class="sc_3_1_text">
                     <a class="font_4"><b>전처리 작업</b></a>
@@ -66,7 +67,7 @@
             </div>
             <div class="sc_3_2 up-on-scroll">
                 <div class="sc_3_2_img">
-                      <img src="img/bg_2.gif">
+                      <img src="img/sc_2_!.jpg">
                 </div>
                 <div class="sc_3_2_text">
                     <a class="font_4"><b>유사도 측정 및 비교</b></a>

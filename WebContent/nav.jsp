@@ -21,10 +21,35 @@
         </div>
         </a>
         
+        <% 
+        String id = (String)session.getAttribute("idKey"); 
+        if(id == null) {
+        %>	
+		<a href="login.jsp">
+        <div class="hd_user">
+            <img src="icon/user.svg">
+        </div>
+		</a>
+        <% 
+        } else {
+        	
+        %>	
         <a href="user.jsp">
         <div class="hd_user">
             <img src="icon/user.svg">
         </div>
 		</a>
+        <% 
+        }
+        %>
+        
+
+		<!--         
+        <a href="user.jsp">
+        <div class="hd_user">
+            <img src="icon/user.svg">
+        </div>
+		</a>
+		 -->
 </body>
 </html>
