@@ -36,6 +36,8 @@
                    	이름 : <%=name%> 
                    	<br>
                    	아이디 : <%=userId%>
+                   	<br>
+                   <a href=logout.do> 로그아웃 </a>
                 </div>
             </div>
         </div>

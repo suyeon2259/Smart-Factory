@@ -1,6 +1,7 @@
 package com.path.view.user;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
 import javax.servlet.ServletException;
@@ -37,8 +38,8 @@ public class JoinController implements Controller {
 	    	request.setAttribute("joinResult", insertCheck);
 			HttpSession session = request.getSession();
 			session.setAttribute("idKey", id);
+			
 			return "index";
-
 		}else{
 	    	request.setAttribute("joinResult", 0);
 	    	return "signUp";

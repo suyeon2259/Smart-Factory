@@ -1,5 +1,0 @@
-* opacity (본파일)
-* structural_similarity (라이브러리)
-
-1. structural_similarity 라이브러리를 따로 설치
-2. structural 파일 참고하여 라이브러리 값을 수정할 것
