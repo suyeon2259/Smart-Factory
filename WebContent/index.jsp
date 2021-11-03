@@ -29,6 +29,12 @@
             <div class="sc_logo">
                 <img src="icon/sc_logo.svg">
             </div>
+                        테스트페이지
+            <div style="background-color: gray;">
+            <a href="notice.jsp">공지사항</a>
+            <br>
+            <a href="similarity.jsp">유사도 비교</a>
+            </div>
             <br>
             <b><a class="font_1">Plan And producT cHeck</a></b>
             <a class="font_7">We are the path between architect and manufacturing.</a>
@@ -89,7 +95,7 @@
                     <a class="font_6">팀장</a>
                 </span>
                 <span class="sc_4_1_2">
-                    <img src="img/bg_2.gif">
+                    <img src="img/team2.jpg">
                     <a class="font_5">한상민</a>
                     <br>
                     <a class="font_6">부팀장</a>
@@ -97,19 +103,19 @@
             </div>
             <div class="sc_4_2 up-on-scroll">
                 <span class="sc_4_2_1">
-                    <img src="img/bg_4.gif">
+                    <img src="img/team3.jpg">
                     <a class="font_5">박강명</a>
                     <br>
                     <a class="font_6">DB 관리</a>
                 </span>
                 <span class="sc_4_2_2">
-                    <img src="img/bg_5.gif">
+                    <img src="img/team4.jpg">
                     <a class="font_5">조경찬</a>
                     <br>
                     <a class="font_6">프로그래밍</a>
                 </span>
                 <span class="sc_4_2_3">
-                    <img src="img/bg_3.gif">
+                    <img src="img/team5.jpg">
                     <a class="font_5">이희재</a>
                     <br>
                     <a class="font_6">프로그래밍</a>

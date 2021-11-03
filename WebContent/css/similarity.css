@@ -1,0 +1,124 @@
+@font-face {
+    src: url("../font/main_font.ttf");
+    font-family: "mf";
+}
+
+/* body */
+body {
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-image: url('../img/product_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "mf";
+    line-height: 200%;
+}
+
+
+/* signUp */
+.user_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    text-align: center;
+    animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+.user_contents {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    font-size: 30px;
+}
+
+.contents_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: rgba(50, 50, 50, 0.8);
+    border-radius: 20px 20px 20px 20px;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    font-size: 12px;
+}
+
+.contents_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.contents_image{
+    background-color: green;
+    border-radius: 20px 20px 20px 20px;
+    min-width: 200px;
+    width: 24vw;
+    max-width: 500px;
+    min-height: 200px;
+    max-height: 300px;
+    font-size: 20px;
+}
+
+.contents_image > img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+
+/* desktop */
+@media (min-width:1024px) {     
+    .contents_container {
+    max-width: 1200px;
+    font-size: 16px;
+    }
+    
+}
+
+/* tablet */
+@media (min-width:768px) and (max-width: 1023px) {
+    .contents_container {
+    max-width: 800px;
+    }
+}
+    
+    /* mobile */
+@media (max-width:767px) {        
+    
+}
