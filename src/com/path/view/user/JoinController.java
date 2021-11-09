@@ -38,7 +38,6 @@ public class JoinController implements Controller {
 	    	request.setAttribute("joinResult", insertCheck);
 			HttpSession session = request.getSession();
 			session.setAttribute("idKey", id);
-			
 			return "index";
 		}else{
 	    	request.setAttribute("joinResult", 0);

@@ -60,7 +60,7 @@
             <a class="font_2">Process</a>
             <div class="sc_3_1 up-on-scroll">
                 <div class="sc_3_1_img">
-                      <img src="img/product_1.jpg">
+                     <img src="img/product_1.jpg">
                 </div>
                 <div class="sc_3_1_text">
                     <a class="font_4"><b>전처리 작업</b></a>

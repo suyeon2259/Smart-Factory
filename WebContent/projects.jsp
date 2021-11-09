@@ -1,7 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="com.path.user.Impl.MemberDao" %>
+<%@ page import="java.util.*"%>
 <%@ page import="java.io.*" %>
+<%@ page import="com.path.projects.*" %>
+<jsp:useBean id="proMgr" class="com.path.projects.ProjectMgr" />
 <%
 	// 세션체크
 	String userId = (String)session.getAttribute("idKey");
@@ -17,8 +19,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>User</title>
-<link rel="stylesheet" href="css/user.css">
+<title>Projects</title>
+<link rel="stylesheet" href="css/projects.css">
 <!--<script type="text/javascript" src="/js/script1.js"></script>-->
 <meta name="viewport" content="width=device-width", initial-scale="1"> <!-- 반응형 웹 메타태그 -->
 </head>
@@ -33,23 +35,26 @@
     <div>
 		<jsp:include page="menu.jsp" flush="false"/>
 	</div>
-	
-    <!-- 프로필 -->
-    <div class="user_container">
-        <div class="user_contents">
-           <a>프로필</a>
-            <div class="contents_container">
-               <div class="contents">
-                   <%
-                   	MemberDao dao = new MemberDao();
-                   	String name = dao.getUserName(userId);
-                   %>
-                   	이름 : <%=name%> 
-                   	<br>
-                   	아이디 : <%=userId%>
-                   	<br>
-                   <a href=logout.do><input type="button" value="로그아웃"></a>
+
+    <!-- 도면관리 -->
+    <div class="notice_container">
+        <div class="notice_contents">
+           <a>프로젝트</a>
+            <div class="notice_post_container">
+            <%Vector vResult = proMgr.getProjectList(userId); %>
+            <%for(int i=0; i<vResult.size(); i++) {
+            	ProjectDto project = (ProjectDto)vResult.get(i);
+            %>
+                <div class="notice_post">
+                    <span><%=i%></span>
+                    <span><%=project.getPro_title()%></span>
+                    <span><%=project.getPro_id() %></span>
+                    <span><%=project.getPro_date() %></span>
                 </div>
+            <% }%>
+            </div>
+            <div class="search_container">
+            	<a href="projectAdd.jsp"><input type="button" value="프로젝트 추가"></a>
             </div>
         </div>
     </div>
