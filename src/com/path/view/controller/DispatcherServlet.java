@@ -45,6 +45,7 @@ public class DispatcherServlet extends HttpServlet {
 			view = viewName;
 		}
 		
+	
 		response.sendRedirect(view);
 	}
 }

@@ -31,7 +31,7 @@
                    <tr>
                     <td>아이디</td>
                         <td><input type="text" name="id"></td>
-                        <td><input type="button" value="아이디 중복체크"></td>
+                        <td><input type="button" class="button_1" value="아이디 중복체크"></td>
                     </tr>
                     <tr>
                         <td>비밀번호</td>
@@ -49,7 +49,7 @@
                         <td>E-mail</td>
                         <td><input type="text" name="email"></td>
                         <td style="text-align: left;">
-                        <select name="role">
+                        <select name="role" class="button_1">
                             <option value="0">직접입력
                             <option value="naver">naver.com
                             <option value="gmail">gmail.com
@@ -57,7 +57,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3"><input type="submit" value="회원가입"></td>
+                        <td colspan="3"><input type="submit" class="button_1" value="회원가입"></td>
                     </tr>
                 </form>
                 </table>

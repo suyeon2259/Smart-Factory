@@ -29,17 +29,11 @@
             <div class="sc_logo">
                 <img src="icon/sc_logo.svg">
             </div>
-                        테스트페이지
-            <div style="background-color: gray;">
-            <a href="notice.jsp">공지사항</a>
             <br>
-            <a href="similarity.jsp">유사도 비교</a>
-            </div>
-            <br>
-            <b><a class="font_1">Plan And producT cHeck</a></b>
+            <b><a class="main_comment">Plan And producT cHeck</a></b>
             <a class="font_7">We are the path between architect and manufacturing.</a>
             <br><br>
-            <a class="font_2">GET STARTED</a>
+            <a href="similarity.jsp" class="get_started">GET STARTED</a>
         </div>
         
         <div class="sc_2">
@@ -89,7 +83,7 @@
             <a class="font_2">About Us</a>
             <div class="sc_4_1 up-on-scroll">
                 <span class="sc_4_1_1">
-                    <img src="img/bg_1.gif">
+                    <img src="img/team1.jpg">
                     <a class="font_5">박수연</a>
                     <br>
                     <a class="font_6">팀장</a>

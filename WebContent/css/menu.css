@@ -121,6 +121,13 @@ body {
 .menu_contents > a {
     text-decoration: none;
     color: white;
+    padding: 10px;
+}
+
+.menu_contents > a:hover {
+    background-color: rgba(100, 100, 100, 0.9);
+    color: black;
+    transition: 0.4s;
 }
 
 /* desktop */

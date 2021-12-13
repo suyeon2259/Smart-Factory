@@ -15,12 +15,10 @@
             <a href="#" onclick="menuClose(); return false;"><img src="icon/menu_exit.svg"></a>
         </div>
         <div class="menu_contents">
-           <a href="similarity.jsp">Similarity</a>
-           <a href="projects.jsp">Projects</a>
-           <a href="notice.jsp">Notice</a>
-           <a href="community.jsp">Community</a>
+           <a href="similarity.jsp">유사도 비교</a>
+           <a href="projects.jsp">프로젝트</a>
+           <a href="notice.jsp">공지사항</a>
         </div>
     </div>
 </body>
-    
 </html>

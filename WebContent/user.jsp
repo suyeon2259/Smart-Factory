@@ -44,11 +44,11 @@
                    	MemberDao dao = new MemberDao();
                    	String name = dao.getUserName(userId);
                    %>
-                   	이름 : <%=name%> 
+                   	이름 : <%=name%>
                    	<br>
                    	아이디 : <%=userId%>
                    	<br>
-                   <a href=logout.do><input type="button" value="로그아웃"></a>
+                   <a href=logout.do><input type="button" class="button_1" value="로그아웃"></a>
                 </div>
             </div>
         </div>

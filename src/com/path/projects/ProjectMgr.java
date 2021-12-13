@@ -20,16 +20,16 @@ public class ProjectMgr {
 		
         try {
             con = dbCon.getConnection();
-            String query = "select * from projects where ID = '"+id+"' order by DATE desc";
+            String query = "select * from projects where pro_id = '"+id+"' order by pro_date desc";
             stmt = con.createStatement();
             rs = stmt.executeQuery(query);
 
             while (rs.next()) {
                 ProjectDto project = new ProjectDto();
-                project.setPro_id(rs.getString("ID"));
-                project.setPro_title(rs.getString("TITLE"));
-                project.setPro_content(rs.getString("CONTENT"));
-                project.setPro_date(rs.getString("DATE"));
+                project.setPro_id(rs.getString("pro_id"));
+                project.setPro_title(rs.getString("pro_title"));
+                project.setPro_content(rs.getString("pro_content"));
+                project.setPro_date(rs.getString("pro_date"));
                 vProject.add(project);
             }
             

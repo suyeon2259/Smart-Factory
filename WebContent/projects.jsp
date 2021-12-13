@@ -45,8 +45,8 @@
             <%for(int i=0; i<vResult.size(); i++) {
             	ProjectDto project = (ProjectDto)vResult.get(i);
             %>
-                <div class="notice_post">
-                    <span><%=i%></span>
+                <div class="notice_post" onclick="location.href='version.jsp?id=<%=project.getPro_id()%>&project=<%=project.getPro_title()%>';">
+					<span><%=i+1%></span>
                     <span><%=project.getPro_title()%></span>
                     <span><%=project.getPro_id() %></span>
                     <span><%=project.getPro_date() %></span>
@@ -54,7 +54,7 @@
             <% }%>
             </div>
             <div class="search_container">
-            	<a href="projectAdd.jsp"><input type="button" value="프로젝트 추가"></a>
+            	<a href="projectAdd.jsp"><input type="button" class="button_1" value="프로젝트 추가"></a>
             </div>
         </div>
     </div>

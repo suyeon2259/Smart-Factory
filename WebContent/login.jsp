@@ -38,8 +38,8 @@
                         <td><input type="password" name="password"></td>
                     </tr>
                     <tr>
-                        <td><a href="signUp.jsp"><input type="button" value="회원가입"></a></td>
-                        <td><input type="submit" value="로그인"></td>
+                        <td><a href="signUp.jsp"><input type="button" class="button_1" value="회원가입"></a></td>
+                        <td><input type="submit" class="button_1" value="로그인"></td>
                     </tr>
                 </form>
                 </table>

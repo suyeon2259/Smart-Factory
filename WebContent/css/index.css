@@ -103,6 +103,20 @@ body {
     height: 100%;
 }
 
+.get_started {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.get_started:hover {
+    background-color: rgba(100, 100, 100, 0.8);
+    color: black;
+    transition: 0.4s;
+}
+
+
 /* section */
 .sc {
 /*    background-color: gray;*/
@@ -127,6 +141,10 @@ body {
     min-height: 100vh;
     height: auto;
     animation: fadein 3s;
+}
+
+.main_comment {
+	font-size: 50px;
 }
 
 @keyframes fadein {
@@ -446,6 +464,10 @@ body {
     
     /* mobile */
 @media (max-width:767px) {        
+    
+    .main_comment {
+    	font-size: 30px;
+    }
     
     .font_1 {
         font-size: 26px;

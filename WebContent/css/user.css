@@ -81,6 +81,19 @@ body {
     margin: auto;
 }
 
+.button_1 {
+    width: auto;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 30px;
+    font-family: "mf";
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
 /* desktop */
 @media (min-width:1024px) {     
     .contents_container {
